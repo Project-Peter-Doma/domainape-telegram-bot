@@ -8,6 +8,7 @@
     "dev": "tsx watch api/bot.ts",
     "build": "tsc",
     "start": "node dist/api/bot.js",
+    "postinstall": "prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
