@@ -1,0 +1,33 @@
+{
+  "name": "domainape-bot",
+  "version": "1.0.0",
+  "description": "A Telegram intelligence bot for the Peter domain analysis platform.",
+  "main": "dist/api/bot.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch api/bot.ts",
+    "build": "tsc",
+    "start": "node dist/api/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "domain",
+    "doma"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.12",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
